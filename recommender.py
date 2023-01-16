@@ -5,7 +5,7 @@ import requests
 
 ich_bin_ashutosh = 'https://github.com/ashitoshn3598'
 
-st.sidebar.markdown(ich_bin_ashutosh, unsafe_allow_html=True)
+st.markdown(ich_bin_ashutosh, unsafe_allow_html=True)
 
 api_key = 'cc74e26a0429e1c3332cbb3c55e36f12'
 def get_image(id):
